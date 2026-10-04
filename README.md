@@ -14,15 +14,26 @@ Part 1 reproduces the paper's Logistic Regression, Decision Tree, Random Forest,
 
 Part 2 audits the dataset for duplicate records and evaluates a leakage-aware pipeline using duplicate removal, mutual-information feature selection, hyperparameter optimisation, soft voting, and repeated nested cross-validation.
 
-## Recommended project structure
+## Project structure
 
 ```text
-SIT720_11.1HD/
-├── SIT720_11.1HD.ipynb
-├── heart.csv
+SIT720-11.1HD-reproduce-Heart-Disease-paper/
+├── archive/
+│   └── heart.csv
+├── SIT720_11.1HD_Part1_Part2.ipynb
+├── Nested CV architecture.png
 ├── README.md
 ├── requirements.txt
-└── results/
+├── .gitignore
+├── results_part1.csv
+├── results_part2_clean_baselines.csv
+├── results_part2_context_comparison.csv
+├── results_part2_fair_comparison.csv
+├── results_part2_nested_cv_best_params.csv
+├── results_part2_nested_cv_folds.csv
+├── results_part2_nested_cv_paired.csv
+├── results_part2_nested_cv_paired_ci.csv
+└── results_part2_nested_cv_summary.csv
 ```
 
 The notebook can also load the dataset from:
